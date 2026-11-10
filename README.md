@@ -147,6 +147,3 @@ To make the lesson appear in the app, add it to `src/lessons/index.ts`, in the `
 
 For traffic that is not IP, such as ARP, 802.11 or PPPoE discovery, build the frame with `rawFrame()` from `engine/bytes.ts` and pass it to `packet({ raw })`. A lesson can register its own devices with `registerNodes()` from `engine/nodes.ts`.
 
-## Credits
-
-Inspired by [Protocol Explorer](https://protocol-explorer-alpha.vercel.app/). This project is an independent implementation: its own code, lesson text and styling.
